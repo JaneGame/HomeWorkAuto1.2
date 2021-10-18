@@ -23,5 +23,5 @@ public void cashbackTest() {
 
             Assert.assertEquals(actual, expected);
 
-    }
+        }
 }
