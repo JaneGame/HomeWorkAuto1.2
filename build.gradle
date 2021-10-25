@@ -11,11 +11,9 @@ repositories {
 sourceCompatibility = 11
 
 dependencies {
-    testImplementation 'org.junit.jupiter:junit-jupiter:5.7.0'
     testImplementation 'junit:junit:4.13'
 }
 
 test {
-    useJUnitPlatform()
     useJUnit()
 }
